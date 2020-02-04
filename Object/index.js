@@ -16,5 +16,5 @@ let result_entries = Object.entries(arrLike);
 console.log(result_entries);
 
 for (let [key, value] of result_entries) {
-    console.log(`${key} : ${value}`)
+    console.log(`key : value === ${key} : ${value}`)
 }
