@@ -12,6 +12,7 @@ const resultArr = Object.keys(arrLike).map((key) => {
 });
 
 // entries 메서드를 사용하여 변환
+console.dir(Object);
 let result_entries = Object.entries(arrLike);
 console.log(result_entries);
 
